@@ -6,6 +6,14 @@ using UnityEngine;
 
 public class WaveFunctionT : MonoBehaviour
 {
+    /*
+  Ansatz aus dem YouTube Video von Garnet 08.23. unter https://www.youtube.com/watch?v=IDKWtzTRX3Q
+  Genereirt das Level und ein 2x2 Grid nach der WaveFunction Collapse
+
+    -----
+    Angepasst an 3D Grid auf xzAchsen statt xyAchse, sowie Child Strukturen
+  */
+
     public int dimensions;
     public TileT[] tileObjects;
     public List<CellT> gridComponents;
