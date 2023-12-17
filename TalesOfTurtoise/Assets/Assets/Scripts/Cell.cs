@@ -11,15 +11,15 @@ public class Cell : MonoBehaviour
     */
 
     public bool collapsed;
-    public Tile[] tileOptions;
+    public TileT[] tileOptions;
 
-    public void CreateCell(bool collapsedState, Tile[] tiles)
+    public void CreateCell(bool collapsedState, TileT[] tiles)
     {
         collapsed = collapsedState;
         tileOptions = tiles;
     }
 
-    public void RecreateCell(Tile[] tiles)
+    public void RecreateCell(TileT[] tiles)
     {
         tileOptions = tiles;
     }
